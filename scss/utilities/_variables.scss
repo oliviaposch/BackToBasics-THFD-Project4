@@ -1,0 +1,22 @@
+/* ================================= */
+/*             variables             */
+/* ================================= */
+
+//colors
+$white: #fff;
+
+$color-text-primary: #777;
+
+$color-turquoise: #58e1c1;
+$color-blue-light: #51ddfc;
+$color-orange: #fd7856;
+$color-light-purple: #927bc1;
+$color-blue: #4da2bb;
+$color-green: #63cc82;
+//$color-primary-light: lighten($color-primary, 10%);
+
+//Breackpoints
+$breakpoints: (
+    'sm': 576,
+    'md': 768px,  
+);
