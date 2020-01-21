@@ -14,7 +14,16 @@ $color-orange: #fd7856;
 $color-light-purple: #927bc1;
 $color-blue: #4da2bb;
 $color-green: #63cc82;
+$color-red: #e4757a;
 //$color-primary-light: lighten($color-primary, 10%);
+
+$btns: ( //save UI messages color in a variable
+    'default': $color-blue-light,
+    'error': $color-red,
+    'info': $color-light-purple,
+    'success': $color-green,
+    'warning': $color-orange,
+);
 
 //Breackpoints
 $breakpoints: (

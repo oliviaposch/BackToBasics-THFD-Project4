@@ -1,0 +1,5 @@
+//button colors
+@mixin btn($color) {
+    $value: map-get($btns, $color);
+    background-color: $value;
+}

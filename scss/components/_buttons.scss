@@ -11,20 +11,20 @@
     text-transform: uppercase;
     border-radius: 5px;
     &.default {
-        background-color: #51ddfc;
-      }
+      @include btn('default');      
+    }
     &.error {
-        background-color: #e4757a;
-      }
+      @include btn('error');   
+    }
     &.info {
-        background-color: #927bc1;
-      }
+      @include btn('info');
+    }
     &.success {
-        background-color: #63cc82;
-      }
+      @include btn('success');
+    }
     &.warning {
-        background-color: #fd7856;
-      }
+      @include btn('warning');  
+    }
   
   }
   
