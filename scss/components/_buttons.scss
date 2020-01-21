@@ -25,6 +25,14 @@
     &.warning {
       @include btn('warning');  
     }
+
+    @include mq('md'){
+      padding: 10px 30px;
+
+      & + & {
+        margin-left: 10px;
+      }
+    }
   
   }
   

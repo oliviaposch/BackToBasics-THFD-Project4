@@ -13,13 +13,13 @@
     max-height: 100%;
   }
   
-  .img-frame {
-    @extend %center;
-    margin-top: 10px;
-    max-width: 100%;
-    padding: 13px;
-    border: 1px solid $color-text-primary-light;
-  }
+.img-frame {
+  @extend %center;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid $color-text-primary-light;
+}
   
   .img-logo {
     @extend %center;
